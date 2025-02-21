@@ -13,7 +13,9 @@ U_MACRO(u_tapdelay_tap_##CODE, bindings = <&macro_press &kp CODE>, <&macro_relea
       compatible = "zmk,behavior-hold-tap"; \
       #binding-cells = <2>; \
       tapping-term-ms = <U_TAPPING_TERM>; \
-      flavor = "tap-preferred"; \
+      quick-tap-ms = <U_QUICK_TAPPING_TERM>; \
+      require-prior-idle-ms = <U_REQUIRE_PRIOR_IDLE>;
+      flavor = <U_TAPPING_FLAVOR>; \
       bindings = <&kp>, <&u_tapdelay_tap_##CODE>; \
     }; \
   }; \
@@ -26,7 +28,9 @@ U_MACRO(u_tapdelay_tap_##CODE, bindings = <&macro_press &kp CODE>, <&macro_relea
       compatible = "zmk,behavior-hold-tap"; \
       #binding-cells = <2>; \
       tapping-term-ms = <U_TAPPING_TERM>; \
-      flavor = "tap-preferred"; \
+      quick-tap-ms = <U_QUICK_TAPPING_TERM>; \
+      require-prior-idle-ms = <U_REQUIRE_PRIOR_IDLE>;
+      flavor = ""<U_TAPPING_FLAVOR>"; \
       bindings = <&mo>, <&u_tapdelay_tap_##CODE>; \
     }; \
   }; \
