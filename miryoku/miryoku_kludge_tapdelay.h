@@ -30,7 +30,7 @@ U_MACRO(u_tapdelay_tap_##CODE, bindings = <&macro_press &kp CODE>, <&macro_relea
       tapping-term-ms = <U_TAPPING_TERM>; \
       quick-tap-ms = <U_QUICK_TAPPING_TERM>; \
       require-prior-idle-ms = <U_REQUIRE_PRIOR_IDLE>; \
-      flavor = ""<U_TAPPING_FLAVOR>"; \
+      flavor = <U_TAPPING_FLAVOR>; \
       bindings = <&mo>, <&u_tapdelay_tap_##CODE>; \
     }; \
   }; \
