@@ -1,8 +1,9 @@
-# My Layout
-## Config
+* My Layout
+** Config
 - Will be using on Ferris Sweep with BLE support if possible
 - Will be using vim navigation
 - Will be using QWERTY
+- Need to also alter some of the home row mod delays/timing I think
 
 # Copyright 2023 Manna Harbour
 # https://github.com/manna-harbour/miryoku
