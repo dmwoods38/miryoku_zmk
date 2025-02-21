@@ -1,3 +1,9 @@
+# My Layout
+## Config
+- Will be using on Ferris Sweep with BLE support if possible
+- Will be using vim navigation
+- Will be using QWERTY
+
 # Copyright 2023 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
